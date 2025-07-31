@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Kartu Indent Digital</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('IMG_20250731_215310.png') no-repeat center center fixed;
+      background-size: cover;
+      font-family: monospace;
+    }
+
+    .card {
+      background-color: rgba(20, 20, 20, 0.95);
+      color: #ccc;
+      padding: 16px;
+      border-radius: 12px;
+      width: fit-content;
+      margin: 100px auto;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(3px);
+      font-size: 16px;
+    }
+
+    .filename {
+      color: #00e676;
+      margin-bottom: 8px;
+    }
+
+    .json-key {
+      color: #66d9ef;
+    }
+
+    .json-string {
+      color: #f8f8f2;
+    }
+
+    .json-link {
+      color: #61dafb;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="filename">ðŸ’¾ business_card.json</div>
+    <pre>{
+  <span class="json-key">"name"</span>: <span class="json-string">"Randi Kurniawan"</span>,
+  <span class="json-key">"title"</span>: <span class="json-string">"Developer Web&Samp"</span>,
+  <span class="json-key">"github"</span>: <span class="json-string">"<a href="https://github.com/Ranzcloud" class="json-link" target="_blank">https://github.com/Ranzcloud</a>"</span>
+}</pre>
+  </div>
+</body>
+</html>
